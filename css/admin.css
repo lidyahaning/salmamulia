@@ -1,0 +1,57 @@
+body {
+	*background: url('gambar/bg.png') center fixed no-repeat;
+	background: #000;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-attachment:fixed;
+}
+
+h3 ,h1{
+	font-family:Georgia, serif;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+label {
+	color:#fff;
+}
+
+.login label {
+	color:#000;
+}
+
+.login {
+	margin-top:80px;
+}
+
+.navbar {
+	text-transform:uppercase;
+	*border-top:3px solid #0c0278;
+	width:100%;
+	font-size:12pt;
+	letter-spacing: 2px;
+	border-bottom:5px solid #c58d26;
+}
+
+.navbar a {
+	color:#0b1a3d !important;
+	*text-shadow: 0 0 4px #e6e6e6;
+}
+
+.navbar a:hover{
+	color:#c58d26 !important;
+	text-decoration:none;
+}
+.ubah {
+	margin-bottom: 165px;
+}
+
+.footer {
+	margin-top:50px;
+	background:#000;
+	color:#fff;
+	padding:5px;
+}

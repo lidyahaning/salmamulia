@@ -1,0 +1,97 @@
+body {
+	*background: url('gambar/bg.png') center fixed no-repeat;
+	background: #fff;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-attachment:fixed;
+}
+
+h3 {
+	font-family:Georgia, serif;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	color:#000;
+}
+
+hr {
+	color:#000;
+}
+
+.navbar {
+	text-transform:uppercase;
+	*border-top:3px solid #0c0278;
+	width:100%;
+	font-size:12pt;
+	letter-spacing: 2px;
+	border-bottom:5px solid #c58d26;
+}
+
+.navbar a {
+	color:#0c0278 !important;
+	*text-shadow: 0 0 4px #e6e6e6;
+}
+
+.navbar a:hover, .navbar li.active a {
+	color:#c58d26 !important;
+	text-decoration:none;
+}
+
+.tentang {
+	background:#fff;
+	margin-bottom:50px;
+	*margin-top:50px;
+}
+
+.tentang p {
+	font-size:12pt;
+	text-align:justify;
+	color:#000;
+}
+
+.layanan {
+	margin-bottom:50px;
+	margin-top:50px;
+	background:rgba(241, 245, 253, 1);
+}
+
+.layanan span {
+	font-size:30pt;
+}
+
+.layanan p {
+	font-size:11pt;
+	text-align:justify;
+	color:#000;
+}
+
+.partner {
+	background:#fff;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+.partner ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.partner li {
+	display:inline;
+	padding: 10px;
+}
+
+.footer {
+	padding:20px;
+	background:#090c2f;
+	color:#fff;
+	font-size:12pt;
+}
+
+.hakcipta {
+	margin-top:70px;
+	border-top:2px solid #c58d26;
+	font-size:11pt;
+}

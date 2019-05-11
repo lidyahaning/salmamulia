@@ -1,0 +1,39 @@
+body {
+	background: url('gambar/bg.png') center fixed no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-attachment:fixed;
+}
+
+.navbar {
+	text-transform:uppercase;
+	*border-top:3px solid #0c0278;
+	width:100%;
+	font-size:12pt;
+	letter-spacing: 2px;
+	border-bottom:5px solid #c58d26;
+}
+
+.navbar li a {
+	color:#0c0278 !important;
+	*text-shadow: 0 0 4px #e6e6e6;
+}
+
+.navbar  li a:hover, .navbar li.active a {
+	color:#c58d26 !important;
+	*background-color:rgba(197, 141, 38, 0.69) !important;
+	text-decoration:none;
+}
+
+.layanan ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.layanan li {
+	display:inline;
+	padding: 0 10px 0 10px;
+}
